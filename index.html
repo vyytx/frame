@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Frame CSS</title>
     <link rel="stylesheet" href="css/frame.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/frame.js"></script>
@@ -12,13 +12,13 @@
 </head>
 <body>
     <ul class="navbar submit rightin">
-        <li><a href="docs.html">DOCUMENTION&nbsp;<i class="fa fa-book" aria-hidden="true"></i></a></li>
+        <li><a href="docs/introduction.html">DOCUMENTION&nbsp;<i class="fa fa-book" aria-hidden="true"></i></a></li>
         <li><a href="update.html">CHANGELOG&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i></a></li>
-        <li><a href="dw.html">DOWNLOAD&nbsp;<i class="fa fa-download" aria-hidden="true"></i></a></li>
+        <li><a href="docs/download.html">DOWNLOAD&nbsp;<i class="fa fa-download" aria-hidden="true"></i></a></li>
     </ul>
     <img src="images/frame-css.png" class="icon" />
     <h1 class="title">Frame CSS</h1>
-    <p class="description">A lightweight and modular framework for developing fast and powerful web interfaces.</p>
+    <p class="description">A lightweight modular framework for developing fast and powerful web interfaces.</p>
     <group type="btn" class="options">
         <button class="btn submit xl">Get Start</button>
         <button class="btn submit xl">GitHub<i class="fa fa-github" aria-hidden="true"></i></button>
@@ -73,6 +73,7 @@
 
         .options > .btn > i {
             font-size: calc(var(--height)*0.3) !important;
+            transition: 0.3s color;
         }
 
         .options > .btn:hover,
@@ -86,6 +87,5 @@
         }
 
     </style>
-    <script src="/js/all.js"></script>
 </body>
 </html>

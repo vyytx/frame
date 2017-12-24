@@ -1,0 +1,28 @@
+{
+  "name": "frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "up": "git add css/ && git add docs/ && git add images/ && git add js/ && git add index.html && git commit -m 'command update' && git push -u origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyytx/frame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyytx/frame/issues"
+  },
+  "homepage": "https://github.com/vyytx/frame#readme",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
